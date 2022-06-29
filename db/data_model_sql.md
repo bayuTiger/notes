@@ -109,4 +109,4 @@
 
 ## 続き
 
-https://qiita.com/akitika/items/3e1dbfb8d14fcb468d2d
+[DBの基礎的な事柄2(演算・トランザクション・ロック)](https://qiita.com/akitika/items/3e1dbfb8d14fcb468d2d)

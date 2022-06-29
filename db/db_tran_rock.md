@@ -2,8 +2,7 @@
 
 以下の記事の続きです
 
-https://qiita.com/akitika/items/981674e7dc2954355738
-
+[DBの基礎的な事柄1(データモデル〜SQL)](https://qiita.com/akitika/items/981674e7dc2954355738)
 
 ## 関係演算と集合演算
 
@@ -72,4 +71,4 @@ https://qiita.com/akitika/items/981674e7dc2954355738
 
 ## 続き
 
-https://qiita.com/akitika/items/4e863c9443bfcfafae3f
+[DBの基礎的な事柄3(正規化)](https://qiita.com/akitika/items/4e863c9443bfcfafae3f)

@@ -53,5 +53,39 @@ console.log(numbers([1,4,3,9]))　//[1, 3, 4, 9, 9, 4, 3, 1]
 - laravelからvueに値を渡すときにjson()を使う
   - このjson()でcollection型から配列に変換してくれている
 
-### 参照渡し 値渡し
+### 参照渡し 値渡し　javascript
 
+- 変数に値を再代入すると、値の参照が置き換わる
+- 代入する対象がオブジェクトのプロパティだと、ただ同じオブジェクトを操作しているだけになる
+
+```js
+var a = 10
+var b = a
+a = 100
+console.log(b) // 10
+```
+
+```js
+var a = { val: 10 }
+var b = a
+a.val = 100
+console.log(b) // { val: 100 }
+```
+
+```js
+var a = { val: 10 }
+var b = a
+a = { val: 100 }
+console.log(b) // { val: 10 }
+```
+
+```js
+var obj = { arr: ['hoge'] }
+console.log(obj) // { arr: [ 'hoge' ] }
+
+var arr = obj.arr
+obj.arr = []
+
+console.log(obj) // ???
+console.log(arr) // ???
+```
